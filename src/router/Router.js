@@ -29,14 +29,14 @@ const Router = () => {
             <Route path='/login'>
               <Redirect to='/create' />
             </Route>
+            <Route path='/create'>
+              <CreateProject />
+            </Route>
             <Route path='/projects'>
               <Projects />
             </Route>
             <Route path='/project/:id'>
               <Project />
-            </Route>
-            <Route path='/create'>
-              <CreateProject />
             </Route>
           </>
         ) : (
