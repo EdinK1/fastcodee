@@ -29,7 +29,6 @@ const CreateProject = () => {
 
   return (
     <main className='wrapper'>
-      <h1 className='title'>Welcome back, {auth.currentUser.displayName}.</h1>
       <h2 className='title'>Got an idea? Go wild!</h2>
       <form className='form' onSubmit={handleSubmit}>
         <input
